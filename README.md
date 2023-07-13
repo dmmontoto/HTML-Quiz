@@ -2,7 +2,7 @@
 
 What better way to test yourself on HTML than to quiz yourself on the material through a HTML website? The link attached below will take you to my HTML basic knowledge quiz. Through using javascript, alongside simple css, this basic quiz website can be formed. 
 
-[HTML Quiz]( "HTML Quiz").
+[HTML Quiz](https://dmmontoto.github.io/HTML-Quiz/ "HTML Quiz").
 
 In order for the questions to be generated in random orders everytime, the questions are objects within the javascript file. By keeping every question, along with the options and correct answer as individual objects, we can generate random indexes in this array of "question" objects and display them on screen in this unique order. 
 

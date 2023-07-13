@@ -29,11 +29,11 @@ const questions = [
     },
 
     {
-        question: "What is the correct way to create HTML in-line comments?",
-        optionA: "//",
-        optionB: "/* */",
-        optionC: '"<!-- -->"',
-        optionD: "?-- --!",
+        question: "Who is making the Web Standards",
+        optionA: "Mozilla",
+        optionB: "Google",
+        optionC: "The World Wide Web Consortium",
+        optionD: "Microsoft",
         correctOption: "optionC"
     },
 
@@ -208,6 +208,7 @@ function unCheckRadioButtons() {
 
 // function for when all questions being answered
 function handleEndGame() {
+    clearInterval(timerInterval);
     let remark = null
     let remarkColor = null
 
